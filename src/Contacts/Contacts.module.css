@@ -24,6 +24,9 @@
     gap: 10px;
     min-width: 100%;
 }
+.form input, .form textarea {
+    width: 100%;
+}
 input {
     line-height: 30px;
 }

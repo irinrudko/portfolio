@@ -10,8 +10,7 @@ export const Contacts = () => {
                         <form action="#!" className={style.form}>
                             <input placeholder="Your first name" /> 
                             <input  placeholder="Your last name" />
-                            <textarea placeholder="Write any additional info here">                            
-                            </textarea>
+                            <textarea placeholder="Write any additional info here"></textarea>
                         </form>
                         <input type="submit" value="Submit" className={style.submit} />
                     </article>
