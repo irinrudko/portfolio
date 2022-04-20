@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    background-color: rgb(224, 255, 181);
+    margin: 20px 0;
+}
+

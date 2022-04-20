@@ -1,0 +1,12 @@
+.header {
+    height: 80px;
+    background-color: rgb(103, 204, 147);
+    display: flex;
+    align-items: center;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
