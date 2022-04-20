@@ -9,31 +9,22 @@
     max-width: 100%;
     border: 1px solid;
 }
-
-.contacts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 400px;
-}
 .form {
-    border: 2px solid;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    min-width: 100%;
-}
-.form input, .form textarea {
     width: 100%;
+    max-width: 400px;
+    
+    border: 2px solid;
 }
-input {
+.form input {
     line-height: 30px;
 }
 .submit {
+    align-self: center;
     width: 150px;
-    height: 50px;
+    height: 45px;
     cursor: pointer;
     margin-top: 5%;
 }
