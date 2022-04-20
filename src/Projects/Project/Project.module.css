@@ -1,0 +1,36 @@
+
+.project {
+    background-color: rgb(182, 116, 169);
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    gap: 30px;
+
+    min-height: 500px;
+}
+.imgContainer {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+}
+.contentContainer, .description {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+.contentContainer {
+    justify-content: space-between;
+}
+.description {
+    justify-content: space-around;
+}
+.link {
+    background-color: #fff;
+    height: fit-content;
+}
+
