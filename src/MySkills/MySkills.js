@@ -7,9 +7,7 @@ import { Skill } from "./Skill/Skill"
 export const MySkills = () => {
     return <div className={style.item}>
                 <section className={`${commonStyle.container} ${style.skillsContainer}`}>
-                        <div className={commonStyle.title}>
-                            <h2>My Skills</h2>
-                        </div>
+                        <h2 className={commonStyle.title}>My Skills</h2>
                         <div className={style.skills}>
                             <Skill title={'React'} description={'about it'} />
                             <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '}/>

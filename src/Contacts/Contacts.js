@@ -5,9 +5,7 @@ import commonStyle from '../common/styles/Styles.module.css'
 export const Contacts = () => {
     return <section className={style.item}>
                 <div className={`${commonStyle.container} ${style.contactsContainer}`}>
-                    <div className={commonStyle.title}>
-                            <h2>Contacts</h2>
-                    </div>
+                    <h2 className={commonStyle.title}>Contacts</h2>
                     <article className={style.contacts}>
                         <form action="#!" className={style.form}>
                             <input placeholder="Your first name" /> 

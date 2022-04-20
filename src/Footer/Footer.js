@@ -5,9 +5,7 @@ import commonStyle from '../common/styles/Styles.module.css'
 export const Footer = () => {
     return <footer className={style.item}>
                 <div className={`${commonStyle.container} ${style.footerContainer}`}>
-                    <div className={commonStyle.title}>
-                                <h2>Social</h2>
-                    </div>
+                    <h2 className={commonStyle.title}>Social</h2>
                     <div className={style.socialContainer}>
                         <span></span>
                         <span></span>
