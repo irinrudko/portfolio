@@ -9,12 +9,12 @@ import { Projects } from './Projects/Projects';
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Main />
-        <MySkills />
-        <Projects />
-        <Contacts />
-        <Footer />
+      <Header />
+      <Main />
+      <MySkills />
+      <Projects />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
