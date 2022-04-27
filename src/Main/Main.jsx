@@ -15,7 +15,6 @@ export const Main = () => {
                     Being a former teacher of English, I have strong communication skills (both oral and written), can take responsibility and work well in a team.
                 </p>
                 <a href='https://www.linkedin.com/in/irinrudko/' target='_blank'><Button text='Download CV' /></a>
-
             </div>
         </section >
     </main >

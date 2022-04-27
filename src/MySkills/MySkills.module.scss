@@ -1,5 +1,6 @@
+@import '../common/sass/variables';
+
 .item {
-    // background-color: rgb(108, 184, 141);
     min-height: 100vh;
 }
 
@@ -15,5 +16,5 @@
     justify-content: space-evenly;
     gap: 15px;
 
-    border: 1px solid;
+ 
 }
