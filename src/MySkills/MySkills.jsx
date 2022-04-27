@@ -24,7 +24,6 @@ export const MySkills = () => {
                 <Skill title={'CSS 3, Sass'} icon={faSass} description={'Flexbox, grid, positioning'} />
                 <Skill title={'Material UI'} icon={faUikit} description={'about it'} />
                 <Skill title={'REST API'} icon={faCloud} description={'CRUD, Postman'} />
-
             </div>
         </section>
     </div>
