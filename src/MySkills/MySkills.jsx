@@ -7,7 +7,7 @@ import { Title } from '../common/components/Title/Title'
 export const MySkills = () => {
     return <div className={style.item}>
         <section className={`${commonStyle.container} ${style.skillsContainer}`}>
-            <Title title={'My '} subtitle={'skills'} bgTitle={'About me'} />
+            <Title title={'my '} subtitle={'skills'} bgTitle={'about me'} />
             <div className={style.skills}>
                 <Skill title={'React'} description={'about it'} />
                 <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '} />
