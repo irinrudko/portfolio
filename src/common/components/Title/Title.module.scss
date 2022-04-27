@@ -1,0 +1,14 @@
+@import '/src/common/sass/variables';
+
+.title {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    .subtitle {
+        color: $primaryColor;
+        text-transform: uppercase;
+        display: block;
+    }
+}

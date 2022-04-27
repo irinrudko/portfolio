@@ -1,5 +1,16 @@
 * {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
     text-decoration: none;
     margin: 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background-color: #323232;
+}
+
+*, :after, :before {
     box-sizing: border-box;
 }
