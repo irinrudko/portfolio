@@ -6,8 +6,6 @@ import { Title } from '../common/components/Title/Title'
 import { faReact, faJs, faUikit, faSass, faShirtsinbulk, faOctopusDeploy, faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import { faRocket, faTextWidth, faGlobe, faCloud } from '@fortawesome/fontawesome-free-solid'
 
-
-
 export const MySkills = () => {
     return <div className={style.item}>
         <section className={`${commonStyle.container} ${style.skillsContainer}`}>

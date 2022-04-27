@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router';
 import './App.css';
-
 import { Contacts } from './Contacts/Contacts';
 import { Footer } from './Footer/Footer';
 import { Header } from './Header/Header';
