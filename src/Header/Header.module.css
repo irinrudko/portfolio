@@ -1,14 +1,15 @@
 .header {
-    height: 80px;
-    background-color: rgb(103, 204, 147);
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
 
-    display: none;
-}
+    border: 2px solid;
 
-.flexEnd {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    opacity: 1;
+    transition: opacity .3s;
+    transform: translateY(-50%);
+    z-index: 10;
 }

@@ -1,4 +1,6 @@
+import { Routes, Route } from 'react-router';
 import './App.css';
+
 import { Contacts } from './Contacts/Contacts';
 import { Footer } from './Footer/Footer';
 import { Header } from './Header/Header';
@@ -10,11 +12,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
-      <MySkills />
-      <Projects />
-      <Contacts />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/skills" element={<MySkills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contacts" element={<Contacts />} />
+      </Routes>
+      {/* <Footer /> */}
+
     </div>
   );
 }
