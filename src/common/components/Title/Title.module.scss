@@ -1,14 +1,28 @@
 @import '/src/common/sass/variables';
 
 .title {
-    font-size: 42px;
-    line-height: 52px;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: block;
+    padding: 80px 0;
+    position: relative;
     .subtitle {
         color: $primaryColor;
-        text-transform: uppercase;
-        display: block;
     }
+    .bgTitle {
+        position: absolute;
+        font-size: 110px;
+        left: 0;
+        right: 0;
+        letter-spacing: 10px;
+        line-height: .3;
+        text-transform: uppercase;
+        font-weight: 800;
+        transform: translate(-50%, 50%);
+        color: hsla(0,0%,100%,.07);
+    }
+}
+.title, .subtitle {
+    white-space: nowrap;
+    font-size: 56px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2;
 }
