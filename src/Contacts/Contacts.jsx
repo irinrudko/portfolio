@@ -1,11 +1,12 @@
 import React from "react"
 import style from './Contacts.module.css'
 import commonStyle from '../common/styles/Styles.module.css'
+import { Title } from '../common/components/Title/Title'
 
 export const Contacts = () => {
     return <section className={style.item}>
         <div className={`${commonStyle.container} ${style.contactsContainer}`}>
-            <h2 className={commonStyle.title}>Feel free to contact me</h2>
+            <Title title={'contact '} subtitle={'me'} bgTitle={'feel free to'} />
             <form action="#!" className={style.form}>
                 <input placeholder="Your first name" />
                 <input placeholder="Your last name" />
