@@ -7,10 +7,10 @@ export const Footer = () => {
         <div className={`${commonStyle.container} ${style.footerContainer}`}>
             <h2 className={commonStyle.title}>Social</h2>
             <div className={style.socialContainer}>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+                <span>Telegram</span>
+                <span>GitHub</span>
+                <span>Linkedin</span>
+                <span>Email</span>
             </div>
             <span className={style.copyright}>®2022 All rights reserved</span>
         </div>

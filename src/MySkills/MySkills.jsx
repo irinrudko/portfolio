@@ -19,7 +19,7 @@ export const MySkills = () => {
                 <Skill title={'Storybook'} icon={faShirtsinbulk} description={'about it'} />
                 <Skill title={'ES6+'} icon={faJs} description={'Promises, Eventloop, this, Closures, Hoisting, Recursion, Prototypes, Scope'} />
                 <Skill title={'GIT'} icon={faGitAlt} description={'about it'} />
-                <Skill title={'CSS 3, Sass'} icon={faSass} description={'Flexbox, grid, positioning'} />
+                <Skill title={'CSS 3, Sass'} icon={faSass} description={'Responsive & adaptive design. Flexbox, grid, positioning'} />
                 <Skill title={'Material UI'} icon={faUikit} description={'about it'} />
                 <Skill title={'REST API'} icon={faCloud} description={'CRUD, Postman'} />
             </div>
