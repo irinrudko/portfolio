@@ -16,7 +16,7 @@ export const Contacts = () => {
                     <input placeholder="Your name" required />
                     <input type='email' placeholder="Your email name" required />
                     <textarea placeholder="Your message here" required></textarea>
-                    <Button text='Send message' type="submit" />
+                    <Button text='Send message' type="submit" className={style.submit} />
                 </form>
             </div>
         </div>

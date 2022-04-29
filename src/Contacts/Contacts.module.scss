@@ -1,34 +1,29 @@
 @import '../common/sass/variables';
 
-
 .item {
     min-height: 200px;   
     background-color: #111;
     .contactsContainer {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
         max-width: 100%;
-
         .contentContainer {
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
             width: 100%;
-            max-width: 1200px;
-
             .form {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
                 width: 100%;
-                max-width: 600px;
-                padding: 0 20px;
+                max-width: 750px;
                 gap: 30px;
                 input {
                     line-height: 30px;
                     border: 1px solid #111;
                     padding: 11px 26px;
-                    width: 47%;
+                    width: 48%;
                 }   
                 textarea {
                     border: 1px solid #111;
@@ -42,7 +37,6 @@
                     transition: .3s;
                     background: $secondaryColor;
                     overflow: hidden;
-
 
                     &:hover, &:focus {
                         border: 1px solid $primaryColor;
@@ -63,3 +57,23 @@
         }
     }
 }
+
+@media only screen 
+    and (max-width: 1150px) {
+        .contentContainer {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .form {
+            margin-bottom: 30px;
+            justify-content: center !important;
+        }
+}
+
+@media only screen 
+    and (max-width: 850px) {
+        .form input {
+            width: 100% !important;
+        }
+}
+
