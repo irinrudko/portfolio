@@ -1,18 +1,12 @@
 import React from "react";
-import style from './Footer.module.css'
-import commonStyle from '../common/styles/Styles.module.css'
+import style from './Footer.module.scss'
 
 export const Footer = () => {
     return <footer className={style.item}>
-        <div className={`${commonStyle.container} ${style.footerContainer}`}>
-            <h2 className={commonStyle.title}>Social</h2>
-            <div className={style.socialContainer}>
-                <span>Telegram</span>
-                <span>GitHub</span>
-                <span>Linkedin</span>
-                <span>Email</span>
-            </div>
-            <span className={style.copyright}>®2022 All rights reserved</span>
-        </div>
+        {/* <h2 className={commonStyle.title}>Social</h2> */}
+        <span>Telegram</span>
+        <span>GitHub</span>
+        <span>Linkedin</span>
+        <span>Email</span>
     </footer>
 }
