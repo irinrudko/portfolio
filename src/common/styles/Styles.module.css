@@ -1,13 +1,23 @@
+@keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
 .container {
     height: 100%;
     width: 90%;
     margin: 0 auto;
-    /* border: 1px solid; */
-
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    animation-name: slideUp;
+    animation-duration: 1s;
 }
 
 .center {

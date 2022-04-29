@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router';
 import './App.css';
 import { Contacts } from './Contacts/Contacts';
-import { Footer } from './Footer/Footer';
 import { Header } from './Header/Header';
 import { Main } from './Main/Main';
 import { MySkills } from './MySkills/MySkills';
@@ -17,8 +16,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
-      {/* <Footer /> */}
-
     </div>
   );
 }
