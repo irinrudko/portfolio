@@ -15,7 +15,6 @@ export const Projects = () => {
     };
     const todolist = {
         backgroundImage: `url(${todolistImg})`,
-
     };
     const virtualPiano = {
         backgroundImage: `url(${virtualPianoImg})`,
@@ -28,10 +27,14 @@ export const Projects = () => {
         <section className={`${commonStyle.container} ${style.projectsContainer}`}>
             <Title title={'my '} subtitle={'projects'} bgTitle={'portfolio'} />
             <div className={style.projects}>
-                <Project title='Social Network' description="Class &amp; Func components, TS, React Redux, REST API, axios" style={socialNetwork} />
-                <Project title='Todolist' description='SPA – React, Redux, Typescript, hooks, HOC' style={todolist} />
-                <Project title='Virtual piano keyboard' description='Vanilla JS' style={virtualPiano} />
-                <Project title='Petstory figma mockup' description='SASS, responsive, animation, popup, pseudo, position sticky, absolute' style={petStory} />
+                <a href='#!'>
+                    <Project title='Social Network' description='3 level-based architecture – UI (React), BLL(Redux) and DAL(API). Class &amp; Func components, TS' style={socialNetwork} /></a>
+                <a href='#!' target='_blank'>
+                    <Project title='Todolist' description='SPA – React, Redux, Typescript, Storybook, hooks, HOCs, REST API, axios. Unit, integration tests' style={todolist} /></a>
+                <a href='https://irinrudko.github.io/virtual-piano/' target='_blank'>
+                    <Project title='Virtual piano keyboard' description='Vanilla JS. DOM events' style={virtualPiano} /></a>
+                <a href='https://rolling-scopes-school.github.io/irinrudko-JSFE2021Q1/online-zoo/pages/index.html' target='_blank'>
+                    <Project title='Petstory figma mockup' description='SASS, svg, adaptive, animation, tooltip, pseudo, position sticky, absolute, bg images' style={petStory} /> </a>
             </div>
         </section>
     </div>
