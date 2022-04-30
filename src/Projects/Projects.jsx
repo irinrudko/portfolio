@@ -28,7 +28,7 @@ export const Projects = () => {
             <Title title={'my '} subtitle={'projects'} bgTitle={'portfolio'} />
             <div className={style.projects}>
                 <a href='#!'>
-                    <Project title='Social Network' description='3 level-based architecture – UI (React), BLL(Redux) and DAL(API). Class &amp; Func components, TS' style={socialNetwork} /></a>
+                    <Project title='Social Network' description='Model-View-Presenter, Flux patterns; React Redux, Class &amp; Func components, TS' style={socialNetwork} /></a>
                 <a href='#!' target='_blank'>
                     <Project title='Todolist' description='SPA – React, Redux, Typescript, Storybook, hooks, HOCs, REST API, axios. Unit, integration tests' style={todolist} /></a>
                 <a href='https://irinrudko.github.io/virtual-piano/' target='_blank'>
