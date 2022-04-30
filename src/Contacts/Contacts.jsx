@@ -2,7 +2,7 @@ import React from "react"
 import style from './Contacts.module.scss'
 import commonStyle from '../common/styles/Styles.module.css'
 import { Title } from '../common/components/Title/Title'
-import { Footer } from '../Footer/Footer';
+import { Footer } from './Footer/Footer';
 import { Button } from "../common/components/Button/Button";
 
 

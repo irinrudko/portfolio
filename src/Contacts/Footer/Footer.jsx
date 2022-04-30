@@ -10,10 +10,10 @@ export const Footer = () => {
         <a href='!#' target='_blank' rel='author'>
             <span><FontAwesomeIcon icon={faTelegram} />Telegram </span>
         </a>
-        <a href='https://www.linkedin.com/in/irinrudko/' target='_blank' rel='author'>
+        <a href='src/Contacts/Footer/Footer' target='_blank' rel='author'>
             <span><FontAwesomeIcon icon={faLinkedin} />Linkedin </span>
         </a>
-        <a href='https://www.github.com/irinrudko/' target='_blank' rel='author'>
+        <a href='src/Contacts/Footer/Footer' target='_blank' rel='author'>
             <span><FontAwesomeIcon icon={faGithub} />GitHub </span>
         </a>
         <a href='!#' target='_blank' rel='author'>
