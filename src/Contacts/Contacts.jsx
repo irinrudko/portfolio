@@ -4,6 +4,7 @@ import commonStyle from '../common/styles/Styles.module.css'
 import { Title } from '../common/components/Title/Title'
 import { Footer } from './Footer/Footer';
 import { Button } from "../common/components/Button/Button";
+import { faPaperPlane } from '@fortawesome/fontawesome-free-solid'
 
 
 export const Contacts = () => {
@@ -16,7 +17,7 @@ export const Contacts = () => {
                     <input placeholder="Your name" required />
                     <input type='email' placeholder="Your email name" required />
                     <textarea placeholder="Your message here" required></textarea>
-                    <Button text='Send message' type="submit" className={style.submit} />
+                    <Button text='Send message' ico={faPaperPlane} type="submit" className={style.submit} />
                 </form>
             </div>
         </div>
