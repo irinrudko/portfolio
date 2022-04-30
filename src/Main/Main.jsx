@@ -5,8 +5,8 @@ import { Button } from '../common/components/Button/Button'
 import profilePhoto from '../assets/images/me.jpg'
 
 export const Main = () => {
-    return <main className={style.mainBlock}>
-        <section className={commonStyle.container}>
+    return <main className={style.main}>
+        <section className={`${commonStyle.container} ${style.container}`}>
             <div className={style.colorBlock}></div>
             <img className={style.photo} src={profilePhoto} alt='A picture of Iryna' />
             <div className={style.textBlock}>

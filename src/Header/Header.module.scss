@@ -3,7 +3,7 @@
 .header {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     position: fixed;
     right: 30px;
     top: 50%;
@@ -60,3 +60,32 @@
         }
     }
 }
+
+@media screen and (max-width: 1150px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+
+        left: 0;
+        right: auto;
+        bottom: 0;
+        top: auto;
+        transform: none;
+        width: 100%;
+        background: #2b2a2a;
+        padding: 8px;
+        }
+    .header {
+        .navItem {
+            display: flex;
+            align-items: center;
+            background-color: #444;
+            margin: 0;
+            padding: 0;
+        }
+        .title {
+            display: none;
+        }
+    } 
+}
+
