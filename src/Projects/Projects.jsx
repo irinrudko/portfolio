@@ -27,7 +27,7 @@ export const Projects = () => {
             <section className={`${commonStyle.container} ${style.projectsContainer}`}>
                 <Title title={'my '} subtitle={'projects'} bgTitle={'portfolio'} />
                 <div className={style.projects}>
-                    <a href="https://my-net.vercel.app/">
+                    <a href="https://my-net.vercel.app/" target="_blank">
                         <Project
                             title="Social Network"
                             description="Model-View-Presenter, Flux patterns; React Redux, Class &amp; Func components, TS"
