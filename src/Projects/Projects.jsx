@@ -7,8 +7,12 @@ import myNetImg from '../assets/images/myNet.png'
 import todolistImg from '../assets/images/todolist.png'
 import virtualPianoImg from '../assets/images/virtualPiano.png'
 import petStoryImg from '../assets/images/petstory.png'
+import cardsImg from '../assets/images/cards.png'
 
 export const Projects = () => {
+    const cards = {
+        backgroundImage: `url(${cardsImg})`,
+    }
     const socialNetwork = {
         backgroundImage: `url(${myNetImg})`,
     }
@@ -27,6 +31,13 @@ export const Projects = () => {
             <section className={`${commonStyle.container} ${style.projectsContainer}`}>
                 <Title title={'my '} subtitle={'projects'} bgTitle={'portfolio'} />
                 <div className={style.projects}>
+                    <a href="https://cards-irinrudko.vercel.app/" target="_blank">
+                        <Project
+                            title="Cards"
+                            description="Developed in a team (in progress) Git, Jira, daily scrum meetings"
+                            style={cards}
+                        />
+                    </a>
                     <a href="https://my-net.vercel.app/" target="_blank">
                         <Project
                             title="Social Network"
