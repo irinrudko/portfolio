@@ -17,9 +17,10 @@ export const Main = () => {
                         I'm Iryna Rudzko.<span className={style.subtitle}>Frontend developer</span>
                     </h1>
                     <p className={style.description}>
-                        Hey there! I'm a passionate frontend developer focused on building excellent software that makes
-                        people's lives easier. Being a former teacher of English, I have strong communication skills
-                        (both oral and written), can take responsibility and work well in a team.
+                        Hey there! I'm a passionate developer who creates SPA with React/Redux/TypeScript and covers
+                        them with tests. I believe in Clean Code, Prettier, documentation and Dan Abramov. Experienced
+                        in working in a team using Jira, semantic Git commits and daily scrum meetings. My English level
+                        is C1+.
                     </p>
 
                     <a href={myCV} download>
