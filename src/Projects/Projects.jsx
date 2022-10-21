@@ -38,7 +38,7 @@ export const Projects = () => {
                             style={cards}
                         />
                     </a>
-                    <a href="https://my-net.vercel.app/" target="_blank">
+                    <a href="https://my-net-irinrudko.vercel.app/" target="_blank">
                         <Project
                             title="Social Network"
                             description="Model-View-Presenter, Flux patterns; React Redux, Class &amp; Func components, TS"
