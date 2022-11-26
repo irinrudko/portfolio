@@ -31,21 +31,21 @@ export const Projects = () => {
             <section className={`${commonStyle.container} ${style.projectsContainer}`}>
                 <Title title={'my '} subtitle={'projects'} bgTitle={'portfolio'} />
                 <div className={style.projects}>
-                    <a href="https://cards-irinrudko.vercel.app/" target="_blank">
+                    <a href="https://irinrudko.github.io/learning-cards" target="_blank">
                         <Project
                             title="Cards"
                             description="Developed in a team (in progress) Git, Jira, daily scrum meetings"
                             style={cards}
                         />
                     </a>
-                    <a href="https://irinrudko.github.io/social-network/" target="_blank">
+                    <a href="https://irinrudko.github.io/social-network" target="_blank">
                         <Project
                             title="Social Network"
                             description="Model-View-Presenter, Flux patterns; React Redux, Class &amp; Func components, TS"
                             style={socialNetwork}
                         />
                     </a>
-                    <a href="https://todolist-irinrudko.vercel.app/" target="_blank">
+                    <a href="https://irinrudko.github.io/todolist" target="_blank">
                         <Project
                             title="Todolist"
                             description="SPA – React, Redux, Typescript, Storybook, hooks, HOCs, REST API, axios. Unit, integration tests"

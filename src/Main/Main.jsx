@@ -4,7 +4,6 @@ import commonStyle from '../common/styles/Styles.module.css'
 import { Button } from '../common/components/Button/Button'
 import profilePhoto from '../assets/images/me.jpg'
 import { faDownload } from '@fortawesome/fontawesome-free-solid'
-import myCV from '../../src/Iryna-Rudzko-Resume.pdf'
 
 export const Main = () => {
     return (
@@ -23,7 +22,7 @@ export const Main = () => {
                         is C1+.
                     </p>
 
-                    <a href={myCV} download>
+                    <a href="https://drive.google.com/u/0/uc?id=1HBujhF9cucylYGSsupr3SK4jQrocOxSd&export=download">
                         <Button text="Download CV" ico={faDownload} />
                     </a>
                 </div>
