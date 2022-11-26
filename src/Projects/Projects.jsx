@@ -38,7 +38,7 @@ export const Projects = () => {
                             style={cards}
                         />
                     </a>
-                    <a href="https://irinrudko.github.io/social-network" target="_blank">
+                    <a href="https://irinrudko.github.io/hogwarts" target="_blank">
                         <Project
                             title="Social Network"
                             description="Model-View-Presenter, Flux patterns; React Redux, Class &amp; Func components, TS"
