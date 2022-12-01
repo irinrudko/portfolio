@@ -31,28 +31,29 @@ export const Projects = () => {
             <section className={`${commonStyle.container} ${style.projectsContainer}`}>
                 <Title title={'my '} subtitle={'projects'} bgTitle={'portfolio'} />
                 <div className={style.projects}>
-                    <a href="https://irinrudko.github.io/learning-cards" target="_blank">
+                    <a href="https://irinrudko.github.io/learning-cards" target="_blank" rel="noreferrer">
                         <Project
                             title="Cards"
-                            description="Developed in a team (in progress) Git, Jira, daily scrum meetings"
+                            description="Startup project developed in a team. Git, Jira, daily scrum meetings
+                             React/Redux/TS"
                             style={cards}
                         />
                     </a>
-                    <a href="https://irinrudko.github.io/hogwarts" target="_blank">
+                    <a href="https://irinrudko.github.io/hogwarts" target="_blank" rel="noreferrer">
                         <Project
                             title="Social Network"
-                            description="Model-View-Presenter, Flux patterns; React Redux, Class &amp; Func components, TS"
+                            description="Model-View-Presenter, Flux patterns; React/Redux/TS, Class &amp; Func components"
                             style={socialNetwork}
                         />
                     </a>
-                    <a href="https://irinrudko.github.io/todolist" target="_blank">
+                    <a href="https://irinrudko.github.io/todolist" target="_blank" rel="noreferrer">
                         <Project
                             title="Todolist"
-                            description="SPA – React, Redux, Typescript, Storybook, hooks, HOCs, REST API, axios. Unit, integration tests"
+                            description="SPA – React/Redux-toolkit/TS. Storybook, hooks, HOCs, REST API, axios. Unit, integration tests"
                             style={todolist}
                         />
                     </a>
-                    <a href="https://irinrudko.github.io/virtual-piano/" target="_blank">
+                    <a href="https://irinrudko.github.io/virtual-piano/" target="_blank" rel="noreferrer">
                         <Project
                             title="Virtual piano keyboard"
                             description="Vanilla JS. DOM events"
@@ -62,6 +63,7 @@ export const Projects = () => {
                     <a
                         href="https://rolling-scopes-school.github.io/irinrudko-JSFE2021Q1/online-zoo/pages/index.html"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <Project
                             title="Petstory figma mockup"
