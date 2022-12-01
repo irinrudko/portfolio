@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.33692fa6.css",
-    "main.js": "/portfolio/static/js/main.d1311daf.js",
-    "static/js/787.a71561b8.chunk.js": "/portfolio/static/js/787.a71561b8.chunk.js",
-    "index.html": "/portfolio/index.html",
-    "main.33692fa6.css.map": "/portfolio/static/css/main.33692fa6.css.map",
-    "main.d1311daf.js.map": "/portfolio/static/js/main.d1311daf.js.map",
-    "787.a71561b8.chunk.js.map": "/portfolio/static/js/787.a71561b8.chunk.js.map"
+    "main.css": "/static/css/main.d7806233.css",
+    "main.js": "/static/js/main.64694db6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/myNet.png": "/static/media/myNet.b72522fe0950df6e97e6.png",
+    "static/media/me.jpg": "/static/media/me.65438066a7613dd011d1.jpg",
+    "static/media/petstory.png": "/static/media/petstory.97c3e0ec0b3e499d1e36.png",
+    "static/media/virtualPiano.png": "/static/media/virtualPiano.dbfea36ff8c16dc0550d.png",
+    "static/media/cards.png": "/static/media/cards.e74fc8d4db76bf41ab34.png",
+    "static/media/todolist.png": "/static/media/todolist.9a07f211d7f06f1878a6.png",
+    "index.html": "/index.html",
+    "main.d7806233.css.map": "/static/css/main.d7806233.css.map",
+    "main.64694db6.js.map": "/static/js/main.64694db6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33692fa6.css",
-    "static/js/main.d1311daf.js"
+    "static/css/main.d7806233.css",
+    "static/js/main.64694db6.js"
   ]
 }
