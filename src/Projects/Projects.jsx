@@ -3,18 +3,14 @@ import style from './Projects.module.scss'
 import commonStyle from '../common/styles/Styles.module.css'
 import { Project } from './Project/Project'
 import { Title } from '../common/components/Title/Title'
-import myNetImg from '../assets/images/myNet.png'
 import todolistImg from '../assets/images/todolist.png'
 import virtualPianoImg from '../assets/images/virtualPiano.png'
-import petStoryImg from '../assets/images/petstory.png'
 import cardsImg from '../assets/images/cards.png'
+import inctagramImg from '../assets/images/inctagram.png'
 
 export const Projects = () => {
     const cards = {
         backgroundImage: `url(${cardsImg})`,
-    }
-    const socialNetwork = {
-        backgroundImage: `url(${myNetImg})`,
     }
     const todolist = {
         backgroundImage: `url(${todolistImg})`,
@@ -22,8 +18,8 @@ export const Projects = () => {
     const virtualPiano = {
         backgroundImage: `url(${virtualPianoImg})`,
     }
-    const petStory = {
-        backgroundImage: `url(${petStoryImg})`,
+    const inctagram = {
+        backgroundImage: `url(${inctagramImg})`,
     }
 
     return (
@@ -39,18 +35,18 @@ export const Projects = () => {
                             style={cards}
                         />
                     </a>
-                    <a href="https://irinrudko.github.io/hogwarts" target="_blank" rel="noreferrer">
-                        <Project
-                            title="Social Network"
-                            description="Model-View-Presenter, Flux patterns; React/Redux/TS, Class &amp; Func components"
-                            style={socialNetwork}
-                        />
-                    </a>
                     <a href="https://irinrudko.github.io/todolist" target="_blank" rel="noreferrer">
                         <Project
                             title="Todolist"
                             description="SPA – React/Redux-toolkit/TS. Storybook, hooks, HOCs, REST API, axios. Unit, integration tests"
                             style={todolist}
+                        />
+                    </a>
+                    <a href="https://inctagram.net" target="_blank" rel="noreferrer">
+                        <Project
+                            title="Inctagram – in process"
+                            description="Been developing in a team. Next.js, SSR, RTK Query, Jest, React testing library, UI-kit, Radix, Sass"
+                            style={inctagram}
                         />
                     </a>
                     <a href="https://irinrudko.github.io/virtual-piano/" target="_blank" rel="noreferrer">
@@ -59,17 +55,6 @@ export const Projects = () => {
                             description="Vanilla JS. DOM events"
                             style={virtualPiano}
                         />
-                    </a>
-                    <a
-                        href="https://rolling-scopes-school.github.io/irinrudko-JSFE2021Q1/online-zoo/pages/index.html"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <Project
-                            title="Petstory figma mockup"
-                            description="SASS, svg, adaptive, animation, tooltip, pseudo, position sticky, absolute, bg images"
-                            style={petStory}
-                        />{' '}
                     </a>
                 </div>
             </section>
