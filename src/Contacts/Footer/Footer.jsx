@@ -25,7 +25,7 @@ export const Footer = () => {
                     GitHub{' '}
                 </span>
             </a>
-            <a href="mailto:irinrudko@gmail.com" rel="author">
+            <a href="mailto:iryna.rudzko.dev@gmail.com" rel="author">
                 <span>
                     <FontAwesomeIcon icon={faEnvelope} />
                     Email{' '}
