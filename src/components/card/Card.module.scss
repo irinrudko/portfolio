@@ -1,6 +1,6 @@
 @import '../../common/sass/variables';
 
-.skill {
+.card {
     background-color: $secondaryColor;
     font-size: 30px;
     display: flex;
@@ -11,7 +11,7 @@
     max-width: 300px;
     padding: 20px;
     border-radius: 5px;
-    border: 1px solid $primaryColor ;
+    border: 1px solid $primaryColor;
     .icon {
         font-size: 100px;
     }
@@ -21,6 +21,5 @@
     }
     .description {
         font-size: 27px;
-
     }
 }
